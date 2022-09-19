@@ -39,7 +39,7 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:2.9.0"
 }
 
-//@group=Deps
+//@group=Tencent
 dependencies {
     implementation "com.tencent:mmkv-static:1.2.13"
 }

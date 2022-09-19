@@ -33,7 +33,7 @@ object Net {
 	const val converter_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
 }
 
-object Deps {
+object Tencent {
 	const val mmkv_static = "com.tencent:mmkv-static:1.2.13"
 }
 
