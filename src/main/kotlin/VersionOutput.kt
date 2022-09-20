@@ -1,7 +1,7 @@
 
 object AndroidX {
-	const val core_ktx = "androidx.core:core-ktx:1.8.0"
-	const val appcompat = "androidx.appcompat:appcompat:1.5.0"
+	const val core_ktx = "androidx.core:core-ktx:1.9.0"
+	const val appcompat = "androidx.appcompat:appcompat:1.5.1"
 	const val recyclerview = "androidx.recyclerview:recyclerview:1.2.1"
 	const val activity = "androidx.activity:activity:1.5.1"
 	const val activity_ktx = "androidx.activity:activity-ktx:1.5.1"
@@ -9,8 +9,8 @@ object AndroidX {
 	const val fragment_ktx = "androidx.fragment:fragment-ktx:1.5.2"
     //Fix version 31 bug: https://stackoverflow.com/questions/69783824/targeting-s-version-31-and-above-requires-that-one-of-flag-immutable-or-flag
 	const val work_runtime_ktx = "androidx.work:work-runtime-ktx:2.7.1"
-	const val navigation_ui = "androidx.navigation:navigation-ui:2.5.1"
-	const val navigation_fragment_ktx = "androidx.navigation:navigation-fragment-ktx:2.5.1"
+	const val navigation_ui = "androidx.navigation:navigation-ui:2.5.2"
+	const val navigation_fragment_ktx = "androidx.navigation:navigation-fragment-ktx:2.5.2"
 	const val constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
 }
 
