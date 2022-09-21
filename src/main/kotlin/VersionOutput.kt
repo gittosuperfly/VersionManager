@@ -42,3 +42,8 @@ object Test {
 	const val junitAndroid = "androidx.test.ext:junit:1.1.3"
 	const val espresso_core = "androidx.test.espresso:espresso-core:3.4.0"
 }
+
+object Kotlin {
+	const val kotlinx_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+	const val kotlinx_coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+}
