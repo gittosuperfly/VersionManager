@@ -12,6 +12,16 @@ object AndroidX {
 	const val navigation_ui = "androidx.navigation:navigation-ui:2.5.2"
 	const val navigation_fragment_ktx = "androidx.navigation:navigation-fragment-ktx:2.5.2"
 	const val constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
+    //ViewModel and LiveData
+	const val lifecycle_viewmodel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+	const val lifecycle_livedata_ktx = "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1"
+	const val lifecycle_runtime_ktx = "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+	const val lifecycle_viewmodel_savedstate = "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1"
+    // Annotation processor
+    // noinspection LifecycleAnnotationProcessorWithJava8
+	const val lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:2.5.1"
+    // alternately - if using Java8, use the following instead of lifecycle-compiler
+	const val lifecycle_common_java8 = "androidx.lifecycle:lifecycle-common-java8:2.5.1"
 }
 
 object Google {

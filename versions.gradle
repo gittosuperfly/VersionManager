@@ -15,6 +15,18 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:2.5.2"
 
     implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+
+    //ViewModel and LiveData
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.5.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1")
+    // Annotation processor
+    // noinspection LifecycleAnnotationProcessorWithJava8
+    kapt("androidx.lifecycle:lifecycle-compiler:2.5.1")
+    // alternately - if using Java8, use the following instead of lifecycle-compiler
+    implementation("androidx.lifecycle:lifecycle-common-java8:2.5.1")
+
 }
 
 //@group=Google
