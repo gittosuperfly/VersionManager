@@ -37,7 +37,8 @@ object Hilt {
 	const val kotlinx_metadata_jvm_kapt = "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.5.0"
 }
 
-object Net {
+object SquareUp {
+	const val okio = "com.squareup.okio:okio:3.2.0"
 	const val okhttp = "com.squareup.okhttp3:okhttp:5.0.0-alpha.2"
 	const val retrofit = "com.squareup.retrofit2:retrofit:2.9.0"
 	const val converter_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
