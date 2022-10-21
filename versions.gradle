@@ -27,6 +27,9 @@ dependencies {
     // alternately - if using Java8, use the following instead of lifecycle-compiler
     implementation("androidx.lifecycle:lifecycle-common-java8:2.5.1")
 
+    implementation "androidx.tracing:tracing:1.1.0"
+
+
 }
 
 //@group=Google

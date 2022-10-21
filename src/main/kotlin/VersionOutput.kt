@@ -22,6 +22,7 @@ object AndroidX {
 	const val lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:2.5.1"
     // alternately - if using Java8, use the following instead of lifecycle-compiler
 	const val lifecycle_common_java8 = "androidx.lifecycle:lifecycle-common-java8:2.5.1"
+	const val tracing = "androidx.tracing:tracing:1.1.0"
 }
 
 object Google {
