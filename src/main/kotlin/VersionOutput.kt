@@ -26,7 +26,7 @@ object AndroidX {
 }
 
 object Google {
-	const val material = "com.google.android.material:material:1.6.1"
+	const val material = "com.google.android.material:material:1.7.0"
 	const val gson = "com.google.code.gson:gson:2.9.0"
 }
 
@@ -58,4 +58,8 @@ object Test {
 object Kotlin {
 	const val kotlinx_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
 	const val kotlinx_coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+}
+
+object Library {
+	const val AndroidAutoSize = "com.github.JessYanCoding:AndroidAutoSize:v1.2.1"
 }
