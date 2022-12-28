@@ -40,6 +40,7 @@ tasks.register("updateVersion") {
         val outputFile = File("${rootProject.projectDir.path}/src/main/kotlin/VersionOutput.kt")
 
         var content = ""
+        var nextName = ""
 
         versionsFile.forEachLine {
             val line = it.trim().replace("\'", "\"")
@@ -49,14 +50,22 @@ tasks.register("updateVersion") {
                 content += "\nobject ${it.split("=").last()} {\n"
             } else if (line == "}") {
                 content += "}\n"
+            } else if (line.startsWith("//@rename=")) {
+                nextName = line.removePrefix("//@rename=")
             } else if (str.size == 3) {
                 val fra = str[1].split(":")
                 if (fra.size == 3) {
+
                     var name = fra[1].replace("-", "_")
+                    if (nextName.isNotBlank()) {
+                        name = nextName
+                        nextName = ""
+                    }
+
                     if (str[0].trim() == "kapt") {
                         name += "_kapt"
                     }
-                    if (fra[0] == "androidx.test.ext" && fra[1] == "junit"){
+                    if (fra[0] == "androidx.test.ext" && fra[1] == "junit") {
                         name += "Android"
                     }
                     content += "\tconst val $name = \"${str[1]}\"\n"
