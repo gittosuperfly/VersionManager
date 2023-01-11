@@ -11,6 +11,7 @@ object AndroidX {
 	const val work_runtime_ktx = "androidx.work:work-runtime-ktx:2.7.1"
 	const val navigation_ui = "androidx.navigation:navigation-ui:2.5.3"
 	const val navigation_fragment_ktx = "androidx.navigation:navigation-fragment-ktx:2.5.3"
+	const val hilt_navigation_fragment = "androidx.hilt:hilt-navigation-fragment:1.0.0"
 	const val constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
     //ViewModel and LiveData
 	const val lifecycle_viewmodel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
